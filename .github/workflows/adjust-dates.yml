@@ -55,14 +55,16 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update adjusted macOS data feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+            git commit -m "$(cat <<'EOF'
+          Update adjusted macOS data feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')
 
-Fetched from macadmins/sofa and adjusted dates:
-- Added 24 hours to dates where ActivelyExploitedCVEs is empty
-- Preserved original dates for actively exploited CVEs
+          Fetched from macadmins/sofa and adjusted dates:
+          - Added 24 hours to dates where ActivelyExploitedCVEs is empty
+          - Preserved original dates for actively exploited CVEs
 
-🤖 Generated with GitHub Actions
-
-Run ID: ${{ github.run_id }}"
+          Generated with GitHub Actions
+          Run ID: ${{ github.run_id }}
+          EOF
+          )"
             git push
           fi
