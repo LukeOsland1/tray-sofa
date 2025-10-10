@@ -35,11 +35,10 @@ env/
 *~
 .DS_Store
 
-# Generated files (exclude macOS data feeds as they're tracked by workflow)
+# Generated files (exclude macOS data feed as it's tracked by workflow)
 *_data_feed.json
 *_data_feed_original.json
 !macos_data_feed.json
-!macos_data_feed_adjusted.json
 rss_feed.xml
 timestamp.json
 

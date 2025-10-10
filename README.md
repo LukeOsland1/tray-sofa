@@ -72,11 +72,10 @@ Runs automatically:
 This workflow:
 1. Fetches the latest macOS data feed from [macadmins/sofa](https://github.com/macadmins/sofa)
 2. Adds 24 hours to all dates EXCEPT for releases with actively exploited CVEs
-3. Commits the adjusted feed to the repository
+3. Commits the adjusted feed as `macos_data_feed.json` to the repository
 
-Generated files:
-- `macos_data_feed.json` - Original feed from macadmins/sofa
-- `macos_data_feed_adjusted.json` - Feed with adjusted dates
+Generated file:
+- `macos_data_feed.json` - Adjusted feed (replaces previous version each run)
 
 **Date Adjustment Logic:**
 - If `ActivelyExploitedCVEs` array is empty or doesn't exist → adds 24 hours

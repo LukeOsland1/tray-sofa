@@ -5,7 +5,15 @@
       "Bash(mkdir:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git push:*)",
+      "Bash(gh workflow:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(git pull:*)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []
