@@ -1,108 +1,104 @@
-# SOFA Feed Builder
+# macOS SOFA Feed - Date Adjuster
 
-Automated Apple software update feed generator that runs on GitHub Actions.
+Automatically fetches and adjusts dates in the macOS SOFA data feed for patch management workflows.
 
 ## Overview
 
-This project builds feeds for macOS and iOS software updates, including security releases, XProtect updates, and compatible devices.
+This repository contains a GitHub Actions workflow that:
+1. Fetches the latest macOS data feed from [macadmins/sofa](https://github.com/macadmins/sofa)
+2. Adjusts release dates by adding 24 hours
+3. Preserves original dates for releases with actively exploited CVEs
+4. Commits the adjusted feed to this repository
 
-## Setup
+This is useful for patch management systems that need a grace period before enforcing updates, while maintaining urgency for actively exploited vulnerabilities.
 
-### Required Files
-
-Before running the script, ensure you have these files in place:
-
-1. **config.json** - Configuration specifying which OS versions to track
-2. **AppleRoot.pem** - Apple's root certificate for SSL verification
-   - Download from: https://www.apple.com/certificateauthority/
-3. **process_ipsw.py** - IPSW processing module
-4. **process_uma.py** - UMA (macOS installer) processing module
-5. **model_identifier_*.json** - macOS model compatibility data:
-   - model_identifier_tahoe.json (macOS 26)
-   - model_identifier_sequoia.json (macOS 15)
-   - model_identifier_sonoma.json (macOS 14)
-   - model_identifier_ventura.json (macOS 13)
-   - model_identifier_monterey.json (macOS 12)
-6. **cache/supported_devices.json** - Device support mapping
-
-### Installation
-
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Create the cache directory:
-   ```bash
-   mkdir -p cache
-   ```
-
-3. Run the script:
-   ```bash
-   python sofa-feed.py macOS iOS
-   ```
-
-## GitHub Actions
-
-### SOFA Feed Builder Workflow
-
-Runs automatically:
-- **Daily at 2 AM UTC** - Automatic updates
-- **Manual trigger** - Run from Actions tab with custom OS types
-
-Manual trigger steps:
-1. Go to your repository's Actions tab
-2. Select "SOFA Feed Builder"
-3. Click "Run workflow"
-4. Optionally specify OS types (default: "macOS iOS")
-
-Generated files:
-- `macos_data_feed.json` - Complete macOS update data
-- `ios_data_feed.json` - Complete iOS update data
-- `rss_feed.xml` - RSS feed with all updates
-- `timestamp.json` - Last update timestamps
-- `cache/` - Cached data to minimize API calls
+## Workflow
 
 ### Date Adjustment Workflow
 
-Runs automatically:
-- **Daily at 3 AM UTC** - After the SOFA feed builder
-- **Manual trigger** - Run from Actions tab
+**Schedule:**
+- Runs daily at 3 AM UTC
+- Can be manually triggered from the Actions tab
 
-This workflow:
-1. Fetches the latest macOS data feed from [macadmins/sofa](https://github.com/macadmins/sofa)
-2. Adds 24 hours to all dates EXCEPT for releases with actively exploited CVEs
-3. Commits the adjusted feed to the repository
+**Process:**
+1. Downloads the latest `macos_data_feed.json` from macadmins/sofa
+2. Processes all date fields (ReleaseDate, PostingDate, ExpirationDate)
+3. Adds 24 hours to dates where `ActivelyExploitedCVEs` is empty
+4. Preserves original dates where `ActivelyExploitedCVEs` contains items
+5. Commits the adjusted feed to the repository
 
-Generated file:
-- `adjusted-times/macos_data_feed.json` - Adjusted feed (replaces previous version each run)
+**Output:**
+- `adjusted-times/macos_data_feed.json` - The adjusted feed file
 
-**Date Adjustment Logic:**
-- If `ActivelyExploitedCVEs` array is empty or doesn't exist → adds 24 hours
-- If `ActivelyExploitedCVEs` contains items → preserves original dates
+### Date Adjustment Logic
 
-## Output
+```python
+if ActivelyExploitedCVEs array is empty or doesn't exist:
+    → Add 24 hours to all dates
 
-The script generates:
-- JSON feeds with version information
-- RSS feed for notifications
-- Security release tracking with CVE data
-- Compatible device lists
-- XProtect version tracking (macOS only)
+if ActivelyExploitedCVEs contains items:
+    → Preserve original dates (no delay for actively exploited vulnerabilities)
+```
 
-## Configuration
+## Usage
 
-Edit `config.json` to specify which OS versions to track:
+### Accessing the Adjusted Feed
 
+The adjusted feed is available at:
+```
+https://raw.githubusercontent.com/LukeOsland1/tray-sofa/main/adjusted-times/macos_data_feed.json
+```
+
+Or via GitHub Pages (if enabled):
+```
+https://lukeosland1.github.io/tray-sofa/adjusted-times/macos_data_feed.json
+```
+
+### Manual Trigger
+
+1. Go to the [Actions tab](../../actions)
+2. Select "Adjust macOS Data Feed Dates"
+3. Click "Run workflow"
+4. Click the green "Run workflow" button
+
+## Files
+
+- `adjust_dates.py` - Python script that performs the date adjustment
+- `.github/workflows/adjust-dates.yml` - GitHub Actions workflow configuration
+- `adjusted-times/macos_data_feed.json` - The adjusted feed (updated daily)
+
+## Example
+
+**Original date:**
 ```json
 {
-  "softwareReleases": [
-    {"osType": "macOS", "name": "Sequoia 15"},
-    {"osType": "macOS", "name": "Sonoma 14"},
-    {"osType": "iOS", "name": "18"}
-  ]
+  "ProductVersion": "15.0",
+  "ReleaseDate": "2025-09-29T00:00:00Z",
+  "ActivelyExploitedCVEs": []
 }
 ```
+
+**Adjusted date (no exploited CVEs):**
+```json
+{
+  "ProductVersion": "15.0",
+  "ReleaseDate": "2025-09-30T00:00:00Z",
+  "ActivelyExploitedCVEs": []
+}
+```
+
+**Preserved date (has exploited CVEs):**
+```json
+{
+  "ProductVersion": "14.7.1",
+  "ReleaseDate": "2025-09-20T00:00:00Z",
+  "ActivelyExploitedCVEs": ["CVE-2024-12345"]
+}
+```
+
+## Credits
+
+This project uses data from the [macadmins/sofa](https://github.com/macadmins/sofa) project.
 
 ## License
 
