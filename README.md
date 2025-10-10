@@ -44,25 +44,43 @@ Before running the script, ensure you have these files in place:
 
 ## GitHub Actions
 
-The workflow runs automatically:
+### SOFA Feed Builder Workflow
+
+Runs automatically:
 - **Daily at 2 AM UTC** - Automatic updates
 - **Manual trigger** - Run from Actions tab with custom OS types
 
-### Manual Workflow Trigger
-
+Manual trigger steps:
 1. Go to your repository's Actions tab
 2. Select "SOFA Feed Builder"
 3. Click "Run workflow"
 4. Optionally specify OS types (default: "macOS iOS")
 
-### Generated Files
-
-The workflow produces:
+Generated files:
 - `macos_data_feed.json` - Complete macOS update data
 - `ios_data_feed.json` - Complete iOS update data
 - `rss_feed.xml` - RSS feed with all updates
 - `timestamp.json` - Last update timestamps
 - `cache/` - Cached data to minimize API calls
+
+### Date Adjustment Workflow
+
+Runs automatically:
+- **Daily at 3 AM UTC** - After the SOFA feed builder
+- **Manual trigger** - Run from Actions tab
+
+This workflow:
+1. Fetches the latest macOS data feed from [macadmins/sofa](https://github.com/macadmins/sofa)
+2. Adds 24 hours to all dates EXCEPT for releases with actively exploited CVEs
+3. Commits the adjusted feed to the repository
+
+Generated files:
+- `macos_data_feed.json` - Original feed from macadmins/sofa
+- `macos_data_feed_adjusted.json` - Feed with adjusted dates
+
+**Date Adjustment Logic:**
+- If `ActivelyExploitedCVEs` array is empty or doesn't exist → adds 24 hours
+- If `ActivelyExploitedCVEs` contains items → preserves original dates
 
 ## Output
 
