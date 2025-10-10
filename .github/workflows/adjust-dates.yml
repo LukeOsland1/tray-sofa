@@ -1,0 +1,68 @@
+name: Adjust macOS Data Feed Dates
+
+on:
+  # Run daily at 3 AM UTC (after the main feed builder)
+  schedule:
+    - cron: '0 3 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Set permissions for the workflow
+permissions:
+  contents: write
+
+jobs:
+  adjust-dates:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download macOS data feed from SOFA
+        run: |
+          curl -o macos_data_feed.json https://raw.githubusercontent.com/macadmins/sofa/main/v2/macos_data_feed.json
+          echo "Downloaded macOS data feed"
+
+      - name: Adjust dates in feed
+        run: |
+          python adjust_dates.py macos_data_feed.json macos_data_feed_adjusted.json
+          echo "Date adjustment complete"
+
+      - name: Upload adjusted feed
+        uses: actions/upload-artifact@v4
+        with:
+          name: adjusted-feed-${{ github.run_number }}
+          path: macos_data_feed_adjusted.json
+          retention-days: 30
+
+      - name: Commit and push changes
+        if: success()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add generated files
+          git add macos_data_feed.json macos_data_feed_adjusted.json
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update adjusted macOS data feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+
+Fetched from macadmins/sofa and adjusted dates:
+- Added 24 hours to dates where ActivelyExploitedCVEs is empty
+- Preserved original dates for actively exploited CVEs
+
+🤖 Generated with GitHub Actions
+
+Run ID: ${{ github.run_id }}"
+            git push
+          fi
