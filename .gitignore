@@ -35,12 +35,15 @@ env/
 *~
 .DS_Store
 
-# Generated files (exclude macOS data feed as it's tracked by workflow)
+# Generated files
 *_data_feed.json
 *_data_feed_original.json
-!macos_data_feed.json
 rss_feed.xml
 timestamp.json
+
+# Adjusted times folder (tracked by workflow)
+!adjusted-times/
+!adjusted-times/macos_data_feed.json
 
 # Cache (but keep the directory structure)
 cache/*.json

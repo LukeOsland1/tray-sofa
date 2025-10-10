@@ -30,16 +30,19 @@ jobs:
           curl -o macos_data_feed_original.json https://raw.githubusercontent.com/macadmins/sofa/main/v2/macos_data_feed.json
           echo "Downloaded macOS data feed"
 
+      - name: Create adjusted-times directory
+        run: mkdir -p adjusted-times
+
       - name: Adjust dates in feed
         run: |
-          python adjust_dates.py macos_data_feed_original.json macos_data_feed.json
-          echo "Date adjustment complete - output to macos_data_feed.json"
+          python adjust_dates.py macos_data_feed_original.json adjusted-times/macos_data_feed.json
+          echo "Date adjustment complete - output to adjusted-times/macos_data_feed.json"
 
       - name: Upload adjusted feed
         uses: actions/upload-artifact@v4
         with:
           name: adjusted-feed-${{ github.run_number }}
-          path: macos_data_feed.json
+          path: adjusted-times/macos_data_feed.json
           retention-days: 30
 
       - name: Commit and push changes
@@ -49,7 +52,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
 
           # Add adjusted feed
-          git add macos_data_feed.json
+          git add adjusted-times/macos_data_feed.json
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
