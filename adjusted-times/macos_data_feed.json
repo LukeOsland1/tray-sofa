@@ -1,8 +1,8 @@
 {
     "SchemaVersion": "2026.04.11.2",
     "Version": "2.0",
-    "UpdateHash": "676aa17feae7e693b33f326d863a7718d144b42af01cbcbb7a62a92e7da4dcf3",
-    "LastCheck": "2026-04-14T01:07:09.097685951+00:00",
+    "UpdateHash": "975a10b1143e992cc7bb5c9de8901458373e6797cc809d6ed4195b9bbf57bdd0",
+    "LastCheck": "2026-04-15T01:06:52.194092268+00:00",
     "OSVersions": [
         {
             "OSVersion": "Tahoe 26",
@@ -15,7 +15,7 @@
                     "25E253"
                 ],
                 "ReleaseDate": "2026-04-10T00:00:00Z",
-                "ExpirationDate": "2026-07-14T00:00:00Z",
+                "ExpirationDate": "2026-07-15T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/100100",
                 "SecurityInfoContext": "macOS Tahoe has been updated to version 26.4.1, released on April 09, 2026. This update has no published CVE entries and is the most recent approved version. This update comes 16 days after the previous release.",
@@ -114,7 +114,7 @@
                         "25E253"
                     ],
                     "ReleaseDate": "2026-04-10T00:00:00Z",
-                    "ExpirationDate": "2026-07-14T00:00:00Z",
+                    "ExpirationDate": "2026-07-15T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/100100",
                     "SecurityInfoContext": "macOS has been updated to version 26.4.1, released on April 09, 2026. This update has no published CVE entries and is the most recent approved version.",
@@ -1263,10 +1263,9 @@
                         "Mac17,7": "MacBook Pro (14-inch, M5 Max)",
                         "Mac17,8": "MacBook Pro (16-inch, M5 Pro)",
                         "Mac17,9": "MacBook Pro (14-inch, M5 Pro)",
-                        "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
-                        "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
+                        "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
-                        "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+                        "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
                         "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
                         "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
@@ -1314,7 +1313,7 @@
                     "24G624"
                 ],
                 "ReleaseDate": "2026-03-25T00:00:00Z",
-                "ExpirationDate": "2026-07-14T00:00:00Z",
+                "ExpirationDate": "2026-07-15T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/126795",
                 "SecurityInfoContext": "macOS Sequoia has been updated to version 15.7.5, released on March 24, 2026. This update addresses 57 security issues and is the most recent approved version. This update comes 41 days after the previous release.",
@@ -1475,7 +1474,7 @@
                         "24G624"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-07-14T00:00:00Z",
+                    "ExpirationDate": "2026-07-15T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126795",
                     "SecurityInfoContext": "macOS has been updated to version 15.7.5, released on March 24, 2026. This update addresses 57 security issues and is the most recent approved version.",
@@ -4058,6 +4057,7 @@
                         "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
                         "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+                        "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
                         "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
@@ -4111,7 +4111,7 @@
                     "23J423"
                 ],
                 "ReleaseDate": "2026-03-25T00:00:00Z",
-                "ExpirationDate": "2026-07-14T00:00:00Z",
+                "ExpirationDate": "2026-07-15T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/126796",
                 "SecurityInfoContext": "macOS Sonoma has been updated to version 14.8.5, released on March 24, 2026. This update addresses 52 security issues and is the most recent approved version. This update comes 41 days after the previous release.",
@@ -4256,7 +4256,7 @@
                         "23J423"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-07-14T00:00:00Z",
+                    "ExpirationDate": "2026-07-15T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126796",
                     "SecurityInfoContext": "macOS has been updated to version 14.8.5, released on March 24, 2026. This update addresses 52 security issues and is the most recent approved version.",
@@ -6480,6 +6480,7 @@
                         "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
                         "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+                        "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
                         "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
@@ -6531,7 +6532,7 @@
                     "22H730"
                 ],
                 "ReleaseDate": "2025-08-20T00:00:00Z",
-                "ExpirationDate": "2026-07-13",
+                "ExpirationDate": "2026-07-14",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/124929",
                 "SecurityInfoContext": "macOS Ventura has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version. This update comes 22 days after the previous release.",
@@ -6631,7 +6632,7 @@
                         "22H730"
                     ],
                     "ReleaseDate": "2025-08-20T00:00:00Z",
-                    "ExpirationDate": "2026-07-13",
+                    "ExpirationDate": "2026-07-14",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/124929",
                     "SecurityInfoContext": "macOS has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version.",
@@ -9001,6 +9002,7 @@
                         "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
                         "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+                        "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
                         "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
@@ -9055,7 +9057,7 @@
                     "21H1320"
                 ],
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2026-07-13",
+                "ExpirationDate": "2026-07-14",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/120910",
                 "SecurityInfoContext": "macOS Monterey has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version. This update comes 77 days after the previous release.",
@@ -9199,7 +9201,7 @@
                         "21H1320"
                     ],
                     "ReleaseDate": "2024-07-29T00:00:00Z",
-                    "ExpirationDate": "2026-07-13",
+                    "ExpirationDate": "2026-07-14",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/120910",
                     "SecurityInfoContext": "macOS has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version.",
@@ -11047,7 +11049,7 @@
                     "AllBuilds": [],
                     "ReleaseDate": "2021-09-21T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT212177",
+                    "SecurityInfo": "https://support.apple.com/kb/HT212622",
                     "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
@@ -11140,6 +11142,7 @@
                         "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
                         "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+                        "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
                         "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
@@ -11951,14 +11954,12 @@
         "MacBookPro15,1": {
             "MarketingName": "MacBook Pro (15-inch, 2018)",
             "SupportedOS": [
-                "Tahoe 26",
                 "Sequoia 15",
                 "Sonoma 14",
                 "Ventura 13",
                 "Monterey 12"
             ],
             "OSVersions": [
-                26,
                 15,
                 14,
                 13,
@@ -11983,14 +11984,12 @@
         "MacBookPro15,3": {
             "MarketingName": "MacBook Pro (15-inch, 2019)",
             "SupportedOS": [
-                "Tahoe 26",
                 "Sequoia 15",
                 "Sonoma 14",
                 "Ventura 13",
                 "Monterey 12"
             ],
             "OSVersions": [
-                26,
                 15,
                 14,
                 13,
@@ -12006,6 +12005,23 @@
                 "Monterey 12"
             ],
             "OSVersions": [
+                15,
+                14,
+                13,
+                12
+            ]
+        },
+        "MacBookPro16,1": {
+            "MarketingName": "MacBook Pro (16-inch, 2019)",
+            "SupportedOS": [
+                "Tahoe 26",
+                "Sequoia 15",
+                "Sonoma 14",
+                "Ventura 13",
+                "Monterey 12"
+            ],
+            "OSVersions": [
+                26,
                 15,
                 14,
                 13,
@@ -12032,14 +12048,12 @@
         "MacBookPro16,3": {
             "MarketingName": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
             "SupportedOS": [
-                "Tahoe 26",
                 "Sequoia 15",
                 "Sonoma 14",
                 "Ventura 13",
                 "Monterey 12"
             ],
             "OSVersions": [
-                26,
                 15,
                 14,
                 13,
@@ -12049,12 +12063,14 @@
         "MacBookPro16,4": {
             "MarketingName": "MacBook Pro (16-inch, 2019)",
             "SupportedOS": [
+                "Tahoe 26",
                 "Sequoia 15",
                 "Sonoma 14",
                 "Ventura 13",
                 "Monterey 12"
             ],
             "OSVersions": [
+                26,
                 15,
                 14,
                 13,
