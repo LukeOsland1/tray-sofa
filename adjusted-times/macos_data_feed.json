@@ -1,8 +1,8 @@
 {
     "SchemaVersion": "2026.04.11.2",
     "Version": "2.0",
-    "UpdateHash": "f935c282766ea0dc42feeec402b58f2cb9239e815d6eb43aa94a2e7dabb1e63f",
-    "LastCheck": "2026-05-01T01:19:21.534591827+00:00",
+    "UpdateHash": "b99f32c75acf681214fa77d0ea37599e870f2bab6f51f83e2b4f83fb561a0707",
+    "LastCheck": "2026-05-02T01:10:33.344919473+00:00",
     "OSVersions": [
         {
             "OSVersion": "Tahoe 26",
@@ -15,7 +15,7 @@
                     "25E253"
                 ],
                 "ReleaseDate": "2026-04-10T00:00:00Z",
-                "ExpirationDate": "2026-07-31T00:00:00Z",
+                "ExpirationDate": "2026-08-01T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/100100",
                 "SecurityInfoContext": "macOS Tahoe has been updated to version 26.4.1, released on April 09, 2026. This update has no published CVE entries and is the most recent approved version. This update comes 16 days after the previous release.",
@@ -114,7 +114,7 @@
                         "25E253"
                     ],
                     "ReleaseDate": "2026-04-10T00:00:00Z",
-                    "ExpirationDate": "2026-07-31T00:00:00Z",
+                    "ExpirationDate": "2026-08-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/100100",
                     "SecurityInfoContext": "macOS has been updated to version 26.4.1, released on April 09, 2026. This update has no published CVE entries and is the most recent approved version.",
@@ -1313,7 +1313,7 @@
                     "24G624"
                 ],
                 "ReleaseDate": "2026-03-25T00:00:00Z",
-                "ExpirationDate": "2026-07-31T00:00:00Z",
+                "ExpirationDate": "2026-08-01T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/126795",
                 "SecurityInfoContext": "macOS Sequoia has been updated to version 15.7.5, released on March 24, 2026. This update addresses 57 security issues and is the most recent approved version. This update comes 41 days after the previous release.",
@@ -1474,7 +1474,7 @@
                         "24G624"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-07-31T00:00:00Z",
+                    "ExpirationDate": "2026-08-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126795",
                     "SecurityInfoContext": "macOS has been updated to version 15.7.5, released on March 24, 2026. This update addresses 57 security issues and is the most recent approved version.",
@@ -4111,7 +4111,7 @@
                     "23J423"
                 ],
                 "ReleaseDate": "2026-03-25T00:00:00Z",
-                "ExpirationDate": "2026-07-31T00:00:00Z",
+                "ExpirationDate": "2026-08-01T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/126796",
                 "SecurityInfoContext": "macOS Sonoma has been updated to version 14.8.5, released on March 24, 2026. This update addresses 52 security issues and is the most recent approved version. This update comes 41 days after the previous release.",
@@ -4256,7 +4256,7 @@
                         "23J423"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-07-31T00:00:00Z",
+                    "ExpirationDate": "2026-08-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126796",
                     "SecurityInfoContext": "macOS has been updated to version 14.8.5, released on March 24, 2026. This update addresses 52 security issues and is the most recent approved version.",
@@ -6532,7 +6532,7 @@
                     "22H730"
                 ],
                 "ReleaseDate": "2025-08-20T00:00:00Z",
-                "ExpirationDate": "2026-07-30",
+                "ExpirationDate": "2026-07-31",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/124929",
                 "SecurityInfoContext": "macOS Ventura has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version. This update comes 22 days after the previous release.",
@@ -6632,7 +6632,7 @@
                         "22H730"
                     ],
                     "ReleaseDate": "2025-08-20T00:00:00Z",
-                    "ExpirationDate": "2026-07-30",
+                    "ExpirationDate": "2026-07-31",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/124929",
                     "SecurityInfoContext": "macOS has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version.",
@@ -8994,7 +8994,6 @@
                         "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
                         "Mac14,9": "MacBook Pro (14-inch, M2 Pro, 2023)",
                         "Mac15,3": "MacBook Pro (14-inch, M3, Nov 2023)",
-                        "MacBookPro11,5": "MacBook Pro (Retina, 15-inch, Mid 2015)",
                         "MacBookPro13,1": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
                         "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
                         "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
@@ -9057,7 +9056,7 @@
                     "21H1320"
                 ],
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2026-07-30",
+                "ExpirationDate": "2026-07-31",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/120910",
                 "SecurityInfoContext": "macOS Monterey has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version. This update comes 77 days after the previous release.",
@@ -9201,7 +9200,7 @@
                         "21H1320"
                     ],
                     "ReleaseDate": "2024-07-29T00:00:00Z",
-                    "ExpirationDate": "2026-07-30",
+                    "ExpirationDate": "2026-07-31",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/120910",
                     "SecurityInfoContext": "macOS has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version.",
@@ -11049,7 +11048,7 @@
                     "AllBuilds": [],
                     "ReleaseDate": "2021-09-21T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/en-us/126349",
+                    "SecurityInfo": "https://support.apple.com/kb/HT213809",
                     "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
@@ -11870,11 +11869,9 @@
         "MacBookPro11,5": {
             "MarketingName": "MacBook Pro (Retina, 15-inch, Mid 2015)",
             "SupportedOS": [
-                "Ventura 13",
                 "Monterey 12"
             ],
             "OSVersions": [
-                13,
                 12
             ]
         },
@@ -12855,13 +12852,13 @@
         }
     },
     "XProtectPlistConfigData": {
-        "ReleaseDate": "2026-04-29T17:40:39Z",
-        "com.apple.XProtect": "5341"
+        "com.apple.XProtect": "5341",
+        "ReleaseDate": "2026-04-29T17:40:39Z"
     },
     "XProtectPayloads": {
-        "ReleaseDate": "2026-04-29T17:40:39Z",
         "com.apple.XProtectFramework.XProtect": "157",
-        "com.apple.XprotectFramework.PluginService": "74"
+        "com.apple.XprotectFramework.PluginService": "74",
+        "ReleaseDate": "2026-04-29T17:40:39Z"
     },
     "BackgroundSecurityImprovements": {
         "26": [
