@@ -1,24 +1,24 @@
 {
     "SchemaVersion": "2026.04.11.2",
     "Version": "2.0",
-    "UpdateHash": "af0f152e51767ea2110ad6623d24aa4875ee9ea954da77e5e7b27b5aa6647bb3",
-    "LastCheck": "2026-06-01T08:20:48.152485951+00:00",
+    "UpdateHash": "c37144be27c346da57c74244a52e7114de69fe504c05539118aea505124a215b",
+    "LastCheck": "2026-06-02T01:32:27.416120596+00:00",
     "OSVersions": [
         {
             "OSVersion": "Tahoe 26",
             "Latest": {
-                "UpdateName": "macOS Tahoe 26.5",
+                "UpdateName": "macOS Tahoe 26.5.1",
                 "ProductName": "macOS",
-                "ProductVersion": "26.5",
-                "Build": "25F71",
+                "ProductVersion": "26.5.1",
+                "Build": "25F80",
                 "AllBuilds": [
-                    "25F71"
+                    "25F80"
                 ],
-                "ReleaseDate": "2026-05-12T00:00:00Z",
-                "ExpirationDate": "2026-08-31T00:00:00Z",
+                "ReleaseDate": "2026-06-02T00:00:00Z",
+                "ExpirationDate": "2026-09-01T00:00:00Z",
                 "ReleaseType": "OS",
-                "SecurityInfo": "https://support.apple.com/en-us/127115",
-                "SecurityInfoContext": "macOS Tahoe has been updated to version 26.5, released on May 11, 2026. This update addresses 79 security issues and is the most recent approved version. This update comes 32 days after the previous release.",
+                "SecurityInfo": "https://support.apple.com/en-us/100100",
+                "SecurityInfoContext": "macOS Tahoe has been updated to version 26.5.1, released on June 01, 2026. This update has no published CVE entries and is the most recent approved version. This update comes 21 days after the previous release.",
                 "SupportedDevices": [
                     "J152FAP",
                     "J160AP",
@@ -84,95 +84,15 @@
                     "VMA2MACOSAP",
                     "VMM-x86_64"
                 ],
-                "CVEs": {
-                    "CVE-2026-1837": {},
-                    "CVE-2026-28819": {},
-                    "CVE-2026-28846": {},
-                    "CVE-2026-28847": {},
-                    "CVE-2026-28848": {},
-                    "CVE-2026-28883": {},
-                    "CVE-2026-28897": {},
-                    "CVE-2026-28901": {},
-                    "CVE-2026-28902": {},
-                    "CVE-2026-28903": {},
-                    "CVE-2026-28904": {},
-                    "CVE-2026-28905": {},
-                    "CVE-2026-28906": {},
-                    "CVE-2026-28907": {},
-                    "CVE-2026-28908": {},
-                    "CVE-2026-28913": {},
-                    "CVE-2026-28914": {},
-                    "CVE-2026-28915": {},
-                    "CVE-2026-28917": {},
-                    "CVE-2026-28918": {},
-                    "CVE-2026-28919": {},
-                    "CVE-2026-28920": {},
-                    "CVE-2026-28922": {},
-                    "CVE-2026-28923": {},
-                    "CVE-2026-28924": {},
-                    "CVE-2026-28925": {},
-                    "CVE-2026-28929": {},
-                    "CVE-2026-28930": {},
-                    "CVE-2026-28936": {},
-                    "CVE-2026-28940": {},
-                    "CVE-2026-28941": {},
-                    "CVE-2026-28942": {},
-                    "CVE-2026-28943": {},
-                    "CVE-2026-28944": {},
-                    "CVE-2026-28946": {},
-                    "CVE-2026-28947": {},
-                    "CVE-2026-28951": {},
-                    "CVE-2026-28952": {},
-                    "CVE-2026-28953": {},
-                    "CVE-2026-28954": {},
-                    "CVE-2026-28955": {},
-                    "CVE-2026-28956": {},
-                    "CVE-2026-28958": {},
-                    "CVE-2026-28959": {},
-                    "CVE-2026-28961": {},
-                    "CVE-2026-28962": {},
-                    "CVE-2026-28969": {},
-                    "CVE-2026-28971": {},
-                    "CVE-2026-28972": {},
-                    "CVE-2026-28974": {},
-                    "CVE-2026-28976": {},
-                    "CVE-2026-28977": {},
-                    "CVE-2026-28978": {},
-                    "CVE-2026-28983": {},
-                    "CVE-2026-28985": {},
-                    "CVE-2026-28986": {},
-                    "CVE-2026-28987": {},
-                    "CVE-2026-28988": {},
-                    "CVE-2026-28990": {},
-                    "CVE-2026-28991": {},
-                    "CVE-2026-28992": {},
-                    "CVE-2026-28993": {},
-                    "CVE-2026-28994": {},
-                    "CVE-2026-28995": {},
-                    "CVE-2026-28996": {},
-                    "CVE-2026-39869": {},
-                    "CVE-2026-39870": {},
-                    "CVE-2026-39871": {},
-                    "CVE-2026-43652": {},
-                    "CVE-2026-43653": {},
-                    "CVE-2026-43654": {},
-                    "CVE-2026-43655": {},
-                    "CVE-2026-43656": {},
-                    "CVE-2026-43658": {},
-                    "CVE-2026-43659": {},
-                    "CVE-2026-43660": {},
-                    "CVE-2026-43661": {},
-                    "CVE-2026-43666": {},
-                    "CVE-2026-43668": {}
-                },
+                "CVEs": {},
                 "ActivelyExploitedCVEs": [],
-                "UniqueCVEsCount": 79,
-                "DaysSincePreviousRelease": 32,
+                "UniqueCVEsCount": 0,
+                "DaysSincePreviousRelease": 21,
                 "DeviceScope": "universal",
                 "UpdateSummary": {
-                    "Priority": "high",
-                    "Summary": "Addresses 79 security issues",
-                    "Recommendation": "Update to stay secure - security fixes available",
+                    "Priority": "low",
+                    "Summary": "Maintenance update with no published CVE entries",
+                    "Recommendation": "Update recommended - may include unpublished security improvements",
                     "Stats": {
                         "Exploited": 0,
                         "Critical": 0,
@@ -180,11 +100,44 @@
                         "Medium": 0,
                         "Low": 0,
                         "Remote": 0,
-                        "Total": 79
+                        "Total": 0
                     }
                 }
             },
             "SecurityReleases": [
+                {
+                    "UpdateName": "macOS Tahoe 26.5.1",
+                    "ProductName": "macOS",
+                    "ProductVersion": "26.5.1",
+                    "Build": "25F80",
+                    "AllBuilds": [
+                        "25F80"
+                    ],
+                    "ReleaseDate": "2026-06-02T00:00:00Z",
+                    "ExpirationDate": "2026-09-01T00:00:00Z",
+                    "ReleaseType": "OS",
+                    "SecurityInfo": "https://support.apple.com/en-us/100100",
+                    "SecurityInfoContext": "macOS has been updated to version 26.5.1, released on June 01, 2026. This update has no published CVE entries and is the most recent approved version.",
+                    "CVEs": {},
+                    "ActivelyExploitedCVEs": [],
+                    "UniqueCVEsCount": 0,
+                    "DaysSincePreviousRelease": 21,
+                    "DeviceScope": "universal",
+                    "UpdateSummary": {
+                        "Priority": "low",
+                        "Summary": "Maintenance update with no published CVE entries",
+                        "Recommendation": "Update recommended - may include unpublished security improvements",
+                        "Stats": {
+                            "Exploited": 0,
+                            "Critical": 0,
+                            "High": 0,
+                            "Medium": 0,
+                            "Low": 0,
+                            "Remote": 0,
+                            "Total": 0
+                        }
+                    }
+                },
                 {
                     "UpdateName": "macOS Tahoe 26.5",
                     "ProductName": "macOS",
@@ -197,7 +150,7 @@
                     "ExpirationDate": "2026-08-31T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/127115",
-                    "SecurityInfoContext": "macOS has been updated to version 26.5, released on May 11, 2026. This update addresses 79 security issues and is the most recent approved version.",
+                    "SecurityInfoContext": "macOS 26.5 was released on May 11, 2026. This release addressed 79 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
                     "CVEs": {
                         "CVE-2026-1837": {},
                         "CVE-2026-28819": {},
@@ -283,6 +236,12 @@
                     "UniqueCVEsCount": 79,
                     "DaysSincePreviousRelease": 32,
                     "DeviceScope": "universal",
+                    "SupersededBy": {
+                        "ProductVersion": "26.5.1",
+                        "Build": "25F80",
+                        "ReleaseDate": "2026-06-02T00:00:00Z",
+                        "DaysLater": 21
+                    },
                     "UpdateSummary": {
                         "Priority": "high",
                         "Summary": "Addresses 79 security issues",
@@ -307,7 +266,7 @@
                         "25E253"
                     ],
                     "ReleaseDate": "2026-04-10T00:00:00Z",
-                    "ExpirationDate": "2026-08-31T00:00:00Z",
+                    "ExpirationDate": "2026-09-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/100100",
                     "SecurityInfoContext": "macOS 26.4.1 was released on April 09, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -1527,7 +1486,7 @@
                     "24G720"
                 ],
                 "ReleaseDate": "2026-05-12T00:00:00Z",
-                "ExpirationDate": "2026-08-31T00:00:00Z",
+                "ExpirationDate": "2026-09-01T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/127116",
                 "SecurityInfoContext": "macOS Sequoia has been updated to version 15.7.7, released on May 11, 2026. This update addresses 45 security issues and is the most recent approved version. This update comes 48 days after the previous release.",
@@ -1676,7 +1635,7 @@
                         "24G720"
                     ],
                     "ReleaseDate": "2026-05-12T00:00:00Z",
-                    "ExpirationDate": "2026-08-31T00:00:00Z",
+                    "ExpirationDate": "2026-09-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/127116",
                     "SecurityInfoContext": "macOS has been updated to version 15.7.7, released on May 11, 2026. This update addresses 45 security issues and is the most recent approved version.",
@@ -1755,7 +1714,7 @@
                         "24G624"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-08-31T00:00:00Z",
+                    "ExpirationDate": "2026-09-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126795",
                     "SecurityInfoContext": "macOS 15.7.5 was released on March 24, 2026. This release addressed 59 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -4405,7 +4364,7 @@
                     "23J520"
                 ],
                 "ReleaseDate": "2026-05-12T00:00:00Z",
-                "ExpirationDate": "2026-08-31T00:00:00Z",
+                "ExpirationDate": "2026-09-01T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/127117",
                 "SecurityInfoContext": "macOS Sonoma has been updated to version 14.8.7, released on May 11, 2026. This update addresses 42 security issues and is the most recent approved version. This update comes 48 days after the previous release.",
@@ -4540,7 +4499,7 @@
                         "23J520"
                     ],
                     "ReleaseDate": "2026-05-12T00:00:00Z",
-                    "ExpirationDate": "2026-08-31T00:00:00Z",
+                    "ExpirationDate": "2026-09-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/127117",
                     "SecurityInfoContext": "macOS has been updated to version 14.8.7, released on May 11, 2026. This update addresses 42 security issues and is the most recent approved version.",
@@ -4616,7 +4575,7 @@
                         "23J423"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-08-31T00:00:00Z",
+                    "ExpirationDate": "2026-09-01T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126796",
                     "SecurityInfoContext": "macOS 14.8.5 was released on March 24, 2026. This release addressed 55 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -6905,7 +6864,7 @@
                     "22H730"
                 ],
                 "ReleaseDate": "2025-08-20T00:00:00Z",
-                "ExpirationDate": "2026-08-30",
+                "ExpirationDate": "2026-08-31",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/124929",
                 "SecurityInfoContext": "macOS Ventura has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version. This update comes 22 days after the previous release.",
@@ -7005,7 +6964,7 @@
                         "22H730"
                     ],
                     "ReleaseDate": "2025-08-20T00:00:00Z",
-                    "ExpirationDate": "2026-08-30",
+                    "ExpirationDate": "2026-08-31",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/124929",
                     "SecurityInfoContext": "macOS has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version.",
@@ -9438,7 +9397,7 @@
                     "21H1320"
                 ],
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2026-08-30",
+                "ExpirationDate": "2026-08-31",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/120910",
                 "SecurityInfoContext": "macOS Monterey has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version. This update comes 77 days after the previous release.",
@@ -9582,7 +9541,7 @@
                         "21H1320"
                     ],
                     "ReleaseDate": "2024-07-29T00:00:00Z",
-                    "ExpirationDate": "2026-08-30",
+                    "ExpirationDate": "2026-08-31",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/120910",
                     "SecurityInfoContext": "macOS has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version.",
@@ -11430,7 +11389,7 @@
                     "AllBuilds": [],
                     "ReleaseDate": "2021-09-21T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214048",
+                    "SecurityInfo": "https://support.apple.com/en-us/125112",
                     "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
@@ -13254,13 +13213,13 @@
         }
     },
     "XProtectPlistConfigData": {
-        "ReleaseDate": "2026-05-28T17:13:25Z",
-        "com.apple.XProtect": "5346"
+        "com.apple.XProtect": "5346",
+        "ReleaseDate": "2026-05-28T17:13:25Z"
     },
     "XProtectPayloads": {
         "com.apple.XprotectFramework.PluginService": "74",
-        "ReleaseDate": "2026-05-28T17:13:25Z",
-        "com.apple.XProtectFramework.XProtect": "157"
+        "com.apple.XProtectFramework.XProtect": "157",
+        "ReleaseDate": "2026-05-28T17:13:25Z"
     },
     "BackgroundSecurityImprovements": {
         "26": [
@@ -13388,14 +13347,23 @@
     "InstallationApps": {
         "LatestUMA": {
             "Title": "macOS Tahoe",
-            "Version": "26.5",
-            "Build": "25F71",
-            "AppleSlug": "122-77688",
-            "URL": "https://swcdn.apple.com/content/downloads/51/26/122-77688-A_F01L27Y7Q6/7e8t8w89evbl6sgkoy9jhrmw2tqfkhjsd9/InstallAssistant.pkg",
-            "PostingDate": "2026-05-19T17:09:45Z",
-            "Size": 18308485578
+            "Version": "26.5.1",
+            "Build": "25F80",
+            "AppleSlug": "122-84023",
+            "URL": "https://swcdn.apple.com/content/downloads/22/07/122-84023-A_RQPL3GX2L6/l6vt7agjz206oaiyhvc0a4wupeffjk36st/InstallAssistant.pkg",
+            "PostingDate": "2026-06-02T17:19:54Z",
+            "Size": 18308325308
         },
         "AllPreviousUMA": [
+            {
+                "Title": "macOS Tahoe",
+                "Version": "26.5",
+                "Build": "25F71",
+                "AppleSlug": "122-77688",
+                "URL": "https://swcdn.apple.com/content/downloads/51/26/122-77688-A_F01L27Y7Q6/7e8t8w89evbl6sgkoy9jhrmw2tqfkhjsd9/InstallAssistant.pkg",
+                "PostingDate": "2026-05-19T17:09:45Z",
+                "Size": 18308485578
+            },
             {
                 "Title": "macOS Tahoe",
                 "Version": "26.4.1",
@@ -13596,10 +13564,10 @@
             }
         ],
         "LatestMacIPSW": {
-            "MacOSIPSWURL": "https://updates.cdn-apple.com/2026SpringFCS/fullrestores/122-58869/DFB1CEEF-5619-4591-9924-E20DB2C8FED0/UniversalMac_26.5_25F71_Restore.ipsw",
-            "MacOSIPSWBuild": "25F71",
-            "MacOSIPSWVersion": "26.5",
-            "MacOSIPSWAppleSlug": "122-58869"
+            "MacOSIPSWURL": "https://updates.cdn-apple.com/2026SpringFCS/fullrestores/122-88870/E47EBB85-45F2-4E3C-B9E7-6FF7868C2FBA/UniversalMac_26.5.1_25F80_Restore.ipsw",
+            "MacOSIPSWBuild": "25F80",
+            "MacOSIPSWVersion": "26.5.1",
+            "MacOSIPSWAppleSlug": "122-88870"
         }
     }
 }
