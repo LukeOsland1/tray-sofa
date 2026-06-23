@@ -1,8 +1,8 @@
 {
     "SchemaVersion": "2026.04.11.2",
     "Version": "2.0",
-    "UpdateHash": "8897b8917f5724490d181e6dcb6af724bd2fa8d4bfb1abf0f79ceaa5f50e5707",
-    "LastCheck": "2026-06-22T08:34:57.589319293+00:00",
+    "UpdateHash": "308aa5d3ffb1673888cbcf8723262b247abcdc31e1fc32011d49da5831cdd825",
+    "LastCheck": "2026-06-23T01:21:54.139511958+00:00",
     "OSVersions": [
         {
             "OSVersion": "Tahoe 26",
@@ -15,7 +15,7 @@
                     "25F80"
                 ],
                 "ReleaseDate": "2026-06-02T00:00:00Z",
-                "ExpirationDate": "2026-09-21T00:00:00Z",
+                "ExpirationDate": "2026-09-22T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/100100",
                 "SecurityInfoContext": "macOS Tahoe has been updated to version 26.5.1, released on June 01, 2026. This update has no published CVE entries and is the most recent approved version. This update comes 21 days after the previous release.",
@@ -114,7 +114,7 @@
                         "25F80"
                     ],
                     "ReleaseDate": "2026-06-02T00:00:00Z",
-                    "ExpirationDate": "2026-09-21T00:00:00Z",
+                    "ExpirationDate": "2026-09-22T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/100100",
                     "SecurityInfoContext": "macOS has been updated to version 26.5.1, released on June 01, 2026. This update has no published CVE entries and is the most recent approved version.",
@@ -266,7 +266,7 @@
                         "25E253"
                     ],
                     "ReleaseDate": "2026-04-10T00:00:00Z",
-                    "ExpirationDate": "2026-09-21T00:00:00Z",
+                    "ExpirationDate": "2026-09-22T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/100100",
                     "SecurityInfoContext": "macOS 26.4.1 was released on April 09, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -423,30 +423,18 @@
                     "UpdateName": "macOS Tahoe 26.3.2",
                     "ProductName": "macOS",
                     "ProductVersion": "26.3.2",
-                    "Build": "25D2140",
-                    "AllBuilds": [
-                        "25D2140"
-                    ],
+                    "Build": "",
+                    "AllBuilds": [],
                     "ReleaseDate": "2026-03-11T00:00:00Z",
-                    "ExpirationDate": "2026-06-23T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/100100",
                     "SecurityInfoContext": "macOS 26.3.2 was released on March 10, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-                    "SupportedDevices": [
-                        "J700AP"
-                    ],
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
                     "DaysSincePreviousRelease": 6,
-                    "DeviceScope": "device-specific",
+                    "DeviceScope": "universal",
                     "SupersededBy": {
-                        "ProductVersion": "26.4",
-                        "Build": "25E246",
-                        "ReleaseDate": "2026-03-25T00:00:00Z",
-                        "DaysLater": 14
-                    },
-                    "MergedInto": {
                         "ProductVersion": "26.4",
                         "Build": "25E246",
                         "ReleaseDate": "2026-03-25T00:00:00Z",
@@ -471,89 +459,22 @@
                     "UpdateName": "macOS Tahoe 26.3.1",
                     "ProductName": "macOS",
                     "ProductVersion": "26.3.1",
-                    "Build": "25D2128",
-                    "AllBuilds": [
-                        "25D2128"
-                    ],
+                    "Build": "",
+                    "AllBuilds": [],
                     "ReleaseDate": "2026-03-05T00:00:00Z",
-                    "ExpirationDate": "2026-06-23T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/100100",
                     "SecurityInfoContext": "macOS 26.3.1 was released on March 04, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-                    "SupportedDevices": [
-                        "J152FAP",
-                        "J160AP",
-                        "J180dAP",
-                        "J185AP",
-                        "J185FAP",
-                        "J214KAP",
-                        "J215AP",
-                        "J274AP",
-                        "J293AP",
-                        "J313AP",
-                        "J314cAP",
-                        "J314sAP",
-                        "J316cAP",
-                        "J316sAP",
-                        "J375cAP",
-                        "J375dAP",
-                        "J413AP",
-                        "J414cAP",
-                        "J414sAP",
-                        "J415AP",
-                        "J416cAP",
-                        "J416sAP",
-                        "J433AP",
-                        "J434AP",
-                        "J456AP",
-                        "J457AP",
-                        "J473AP",
-                        "J474sAP",
-                        "J475cAP",
-                        "J475dAP",
-                        "J493AP",
-                        "J504AP",
-                        "J514cAP",
-                        "J514mAP",
-                        "J514sAP",
-                        "J516cAP",
-                        "J516mAP",
-                        "J516sAP",
-                        "J575cAP",
-                        "J575dAP",
-                        "J604AP",
-                        "J613AP",
-                        "J614cAP",
-                        "J614sAP",
-                        "J615AP",
-                        "J616cAP",
-                        "J616sAP",
-                        "J623AP",
-                        "J624AP",
-                        "J704AP",
-                        "J713AP",
-                        "J714cAP",
-                        "J714sAP",
-                        "J715AP",
-                        "J716cAP",
-                        "J716sAP",
-                        "J773gAP",
-                        "J773sAP",
-                        "J813AP",
-                        "J815AP",
-                        "VMA2MACOSAP",
-                        "VMM-x86_64"
-                    ],
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
                     "DaysSincePreviousRelease": 21,
                     "DeviceScope": "universal",
                     "SupersededBy": {
-                        "ProductVersion": "26.4",
-                        "Build": "25E246",
-                        "ReleaseDate": "2026-03-25T00:00:00Z",
-                        "DaysLater": 20
+                        "ProductVersion": "26.3.2",
+                        "Build": "",
+                        "ReleaseDate": "2026-03-11T00:00:00Z",
+                        "DaysLater": 6
                     },
                     "UpdateSummary": {
                         "Priority": "low",
@@ -731,7 +652,7 @@
                     "DeviceScope": "universal",
                     "SupersededBy": {
                         "ProductVersion": "26.3.1",
-                        "Build": "25D2128",
+                        "Build": "",
                         "ReleaseDate": "2026-03-05T00:00:00Z",
                         "DaysLater": 21
                     },
@@ -1550,7 +1471,7 @@
                     "24G720"
                 ],
                 "ReleaseDate": "2026-05-12T00:00:00Z",
-                "ExpirationDate": "2026-09-21T00:00:00Z",
+                "ExpirationDate": "2026-09-22T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/127116",
                 "SecurityInfoContext": "macOS Sequoia has been updated to version 15.7.7, released on May 11, 2026. This update addresses 45 security issues and is the most recent approved version. This update comes 48 days after the previous release.",
@@ -1699,7 +1620,7 @@
                         "24G720"
                     ],
                     "ReleaseDate": "2026-05-12T00:00:00Z",
-                    "ExpirationDate": "2026-09-21T00:00:00Z",
+                    "ExpirationDate": "2026-09-22T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/127116",
                     "SecurityInfoContext": "macOS has been updated to version 15.7.7, released on May 11, 2026. This update addresses 45 security issues and is the most recent approved version.",
@@ -1778,7 +1699,7 @@
                         "24G624"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-09-21T00:00:00Z",
+                    "ExpirationDate": "2026-09-22T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126795",
                     "SecurityInfoContext": "macOS 15.7.5 was released on March 24, 2026. This release addressed 59 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -1872,12 +1793,9 @@
                     "UpdateName": "macOS Sequoia 15.7.4",
                     "ProductName": "macOS",
                     "ProductVersion": "15.7.4",
-                    "Build": "24G517",
-                    "AllBuilds": [
-                        "24G517"
-                    ],
+                    "Build": "",
+                    "AllBuilds": [],
                     "ReleaseDate": "2026-02-12T00:00:00Z",
-                    "ExpirationDate": "2026-06-23T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126349",
                     "SecurityInfoContext": "macOS 15.7.4 was released on February 11, 2026. This release addressed 37 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -1989,7 +1907,7 @@
                     "DeviceScope": "universal",
                     "SupersededBy": {
                         "ProductVersion": "15.7.4",
-                        "Build": "24G517",
+                        "Build": "",
                         "ReleaseDate": "2026-02-12T00:00:00Z",
                         "DaysLater": 61
                     },
@@ -4438,7 +4356,7 @@
                     "23J520"
                 ],
                 "ReleaseDate": "2026-05-12T00:00:00Z",
-                "ExpirationDate": "2026-09-21T00:00:00Z",
+                "ExpirationDate": "2026-09-22T00:00:00Z",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/127117",
                 "SecurityInfoContext": "macOS Sonoma has been updated to version 14.8.7, released on May 11, 2026. This update addresses 42 security issues and is the most recent approved version. This update comes 48 days after the previous release.",
@@ -4573,7 +4491,7 @@
                         "23J520"
                     ],
                     "ReleaseDate": "2026-05-12T00:00:00Z",
-                    "ExpirationDate": "2026-09-21T00:00:00Z",
+                    "ExpirationDate": "2026-09-22T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/127117",
                     "SecurityInfoContext": "macOS has been updated to version 14.8.7, released on May 11, 2026. This update addresses 42 security issues and is the most recent approved version.",
@@ -4649,7 +4567,7 @@
                         "23J423"
                     ],
                     "ReleaseDate": "2026-03-25T00:00:00Z",
-                    "ExpirationDate": "2026-09-21T00:00:00Z",
+                    "ExpirationDate": "2026-09-22T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126796",
                     "SecurityInfoContext": "macOS 14.8.5 was released on March 24, 2026. This release addressed 55 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -4739,12 +4657,9 @@
                     "UpdateName": "macOS Sonoma 14.8.4",
                     "ProductName": "macOS",
                     "ProductVersion": "14.8.4",
-                    "Build": "23J319",
-                    "AllBuilds": [
-                        "23J319"
-                    ],
+                    "Build": "",
+                    "AllBuilds": [],
                     "ReleaseDate": "2026-02-12T00:00:00Z",
-                    "ExpirationDate": "2026-06-23T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/126350",
                     "SecurityInfoContext": "macOS 14.8.4 was released on February 11, 2026. This release addressed 44 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -4858,7 +4773,7 @@
                     "DeviceScope": "universal",
                     "SupersededBy": {
                         "ProductVersion": "14.8.4",
-                        "Build": "23J319",
+                        "Build": "",
                         "ReleaseDate": "2026-02-12T00:00:00Z",
                         "DaysLater": 61
                     },
@@ -6943,7 +6858,7 @@
                     "22H730"
                 ],
                 "ReleaseDate": "2025-08-20T00:00:00Z",
-                "ExpirationDate": "2026-09-20",
+                "ExpirationDate": "2026-09-21",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/124929",
                 "SecurityInfoContext": "macOS Ventura has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version. This update comes 22 days after the previous release.",
@@ -7043,7 +6958,7 @@
                         "22H730"
                     ],
                     "ReleaseDate": "2025-08-20T00:00:00Z",
-                    "ExpirationDate": "2026-09-20",
+                    "ExpirationDate": "2026-09-21",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/124929",
                     "SecurityInfoContext": "macOS has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version.",
@@ -9481,7 +9396,7 @@
                     "21H1320"
                 ],
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2026-09-20",
+                "ExpirationDate": "2026-09-21",
                 "ReleaseType": "OS",
                 "SecurityInfo": "https://support.apple.com/en-us/120910",
                 "SecurityInfoContext": "macOS Monterey has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version. This update comes 77 days after the previous release.",
@@ -9625,7 +9540,7 @@
                         "21H1320"
                     ],
                     "ReleaseDate": "2024-07-29T00:00:00Z",
-                    "ExpirationDate": "2026-09-20",
+                    "ExpirationDate": "2026-09-21",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/en-us/120910",
                     "SecurityInfoContext": "macOS has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version.",
@@ -11473,7 +11388,7 @@
                     "AllBuilds": [],
                     "ReleaseDate": "2021-09-21T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/en-us/103236",
+                    "SecurityInfo": "https://support.apple.com/en-us/122901",
                     "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
@@ -13297,8 +13212,8 @@
         }
     },
     "XProtectPlistConfigData": {
-        "com.apple.XProtect": "5347",
-        "ReleaseDate": "2026-06-03T17:14:47Z"
+        "ReleaseDate": "2026-06-03T17:14:47Z",
+        "com.apple.XProtect": "5347"
     },
     "XProtectPayloads": {
         "ReleaseDate": "2026-06-03T17:14:47Z",
@@ -13323,12 +13238,6 @@
                     "CVE-2026-20643"
                 ],
                 "DeviceScope": "device-specific",
-                "PatchesRelease": {
-                    "ProductVersion": "26.3.2",
-                    "Build": "25D2140",
-                    "ReleaseDate": "2026-03-11T00:00:00Z",
-                    "DaysLater": 0
-                },
                 "SupersededBy": {
                     "ProductVersion": "26.4",
                     "Build": "25E246",
@@ -13413,12 +13322,6 @@
                     "CVE-2026-20643"
                 ],
                 "DeviceScope": "universal",
-                "PatchesRelease": {
-                    "ProductVersion": "26.3.1",
-                    "Build": "25D2128",
-                    "ReleaseDate": "2026-03-05T00:00:00Z",
-                    "DaysLater": 0
-                },
                 "SupersededBy": {
                     "ProductVersion": "26.4",
                     "Build": "25E246",
