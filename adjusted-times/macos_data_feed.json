@@ -1,8 +1,8 @@
 {
     "SchemaVersion": "2026.04.11.2",
     "Version": "2.0",
-    "UpdateHash": "1ac0ca0d7133f254e0eda47f4736348434a5d0e4162209504a93d9860b23c77d",
-    "LastCheck": "2026-11-13T06:40:21.255979841+00:00",
+    "UpdateHash": "1ddaa00ed2dbeab91f28ce682738e3f09a9c9ba74175b4c1c0fb09c1ba2c7ace",
+    "LastCheck": "2026-11-13T20:11:41.736184485+00:00",
     "OSVersions": [
         {
             "OSVersion": "Golden Gate 27",
@@ -988,7 +988,9 @@
                         "Mac14,13": "Mac Studio (M2 Max, 2023)",
                         "Mac14,14": "Mac Studio (M2 Ultra, 2023)",
                         "Mac15,14": "Mac Studio (M3 Ultra, 2025)",
-                        "Mac16,9": "Mac Studio (M4 Max, 2025)"
+                        "Mac16,9": "Mac Studio (M4 Max, 2025)",
+                        "Mac17,14": "Mac Studio (M5 Max)",
+                        "Mac17,15": "Mac Studio (M5 Ultra)"
                     }
                 },
                 {
@@ -999,7 +1001,9 @@
                         "Mac14,3": "Mac mini (M2, 2023)",
                         "Mac16,10": "Mac mini (M4, 2024)",
                         "Mac16,11": "Mac mini (M4 Pro, 2024)",
-                        "Macmini9,1": "Mac mini (M1, Late 2020)"
+                        "Macmini9,1": "Mac mini (M1, Late 2020)",
+                        "Mac17,16": "Mac mini (M5 Pro)",
+                        "Mac18,5": "Mac mini (M6)"
                     }
                 },
                 {
@@ -1047,12 +1051,17 @@
                         "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
                         "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
                         "MacBookPro18,3": "MacBook Pro (14-inch, M1 Pro, 2021)",
-                        "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)"
+                        "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)",
+                        "Mac17,10": "MacBook Pro (16-inch PROLED XDR, M5 Pro or M5 Max)",
+                        "Mac17,11": "MacBook Pro (14-inch PROLED XDR, M5 Pro or M5 Max)",
+                        "Mac17,12": "MacBook Pro (16-inch PROLED XDR, M5 Pro or M5 Max)",
+                        "Mac17,13": "MacBook Pro (14-inch PROLED XDR, M5 Pro or M5 Max)",
+                        "Mac18,1": "MacBook Pro (14-inch, M6)"
                     }
                 },
                 {
-                    "Model": "Macbook Neo",
-                    "URL": "https://support.apple.com/en-ca/HT201862",
+                    "Model": "MacBook Neo",
+                    "URL": "https://support.apple.com/en-ca/docs/mac/301292",
                     "Identifiers": {
                         "Mac17,5": "MacBook Neo"
                     }
@@ -1073,7 +1082,8 @@
                         "Mac16,2": "iMac (24-inch, M4, 2024, Two Ports)",
                         "Mac16,3": "iMac (24-inch, M4, 2024, Four Ports)",
                         "iMac21,1": "iMac (24-inch, M1, 2021, Four Ports)",
-                        "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)"
+                        "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)",
+                        "Mac18,2": "iMac (24-inch, M6, 2026)"
                     }
                 }
             ]
@@ -3505,8 +3515,8 @@
                     }
                 },
                 {
-                    "Model": "Macbook Neo",
-                    "URL": "https://support.apple.com/en-ca/HT201862",
+                    "Model": "MacBook Neo",
+                    "URL": "https://support.apple.com/en-ca/docs/mac/301292",
                     "Identifiers": {
                         "Mac17,5": "MacBook Neo"
                     }
@@ -12379,7 +12389,6 @@
                         "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
                         "Mac14,9": "MacBook Pro (14-inch, M2 Pro, 2023)",
                         "Mac15,3": "MacBook Pro (14-inch, M3, Nov 2023)",
-                        "MacBookPro13,1": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
                         "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
                         "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
                         "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
@@ -14435,7 +14444,7 @@
                     "AllBuilds": [],
                     "ReleaseDate": "2021-09-21T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/en-us/125110",
+                    "SecurityInfo": "https://support.apple.com/kb/HT213759",
                     "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
@@ -14552,7 +14561,6 @@
                     "Model": "iMac",
                     "URL": "https://support.apple.com/en-ca/108054",
                     "Identifiers": {
-                        "iMac15,1": "iMac (Retina 5K, 27-inch, Mid 2015)",
                         "iMac16,1": "iMac (21.5-inch, Late 2015)",
                         "iMac16,2": "iMac (Retina 4K, 21.5-inch, Late 2015)",
                         "iMac17,1": "iMac (Retina 5K, 27-inch, Late 2015)",
@@ -15164,6 +15172,69 @@
                 15
             ]
         },
+        "Mac17,10": {
+            "MarketingName": "MacBook Pro (16-inch PROLED XDR, M5 Pro or M5 Max)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac17,11": {
+            "MarketingName": "MacBook Pro (14-inch PROLED XDR, M5 Pro or M5 Max)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac17,12": {
+            "MarketingName": "MacBook Pro (16-inch PROLED XDR, M5 Pro or M5 Max)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac17,13": {
+            "MarketingName": "MacBook Pro (14-inch PROLED XDR, M5 Pro or M5 Max)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac17,14": {
+            "MarketingName": "Mac Studio (M5 Max)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac17,15": {
+            "MarketingName": "Mac Studio (M5 Ultra)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac17,16": {
+            "MarketingName": "Mac mini (M5 Pro)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
         "Mac17,2": {
             "MarketingName": "MacBook Pro 14-inch (M5)",
             "SupportedOS": [
@@ -15250,6 +15321,33 @@
             "OSVersions": [
                 27,
                 26
+            ]
+        },
+        "Mac18,1": {
+            "MarketingName": "MacBook Pro (14-inch, M6)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac18,2": {
+            "MarketingName": "iMac (24-inch, M6, 2026)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
+            ]
+        },
+        "Mac18,5": {
+            "MarketingName": "Mac mini (M6)",
+            "SupportedOS": [
+                "Golden Gate 27"
+            ],
+            "OSVersions": [
+                27
             ]
         },
         "MacBook10,1": {
@@ -15380,11 +15478,9 @@
         "MacBookPro13,1": {
             "MarketingName": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
             "SupportedOS": [
-                "Ventura 13",
                 "Monterey 12"
             ],
             "OSVersions": [
-                13,
                 12
             ]
         },
@@ -15782,15 +15878,6 @@
                 12
             ]
         },
-        "iMac15,1": {
-            "MarketingName": "iMac (Retina 5K, 27-inch, Mid 2015)",
-            "SupportedOS": [
-                "Monterey 12"
-            ],
-            "OSVersions": [
-                12
-            ]
-        },
         "iMac16,1": {
             "MarketingName": "iMac (21.5-inch, Late 2015)",
             "SupportedOS": [
@@ -15972,23 +16059,23 @@
     "Devices": {
         "J132AP": {
             "DeviceID": "MacBookPro15,2",
-            "MarketingName": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
+            "MarketingName": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)"
         },
         "J137AP": {
             "DeviceID": "iMacPro1,1",
-            "MarketingName": "iMac Pro"
+            "MarketingName": "iMac Pro (2017)"
         },
         "J140AAP": {
-            "DeviceID": "MacBookAir8,1",
-            "MarketingName": "MacBook Air (Retina, 13-inch, 2018)"
-        },
-        "J140KAP": {
             "DeviceID": "MacBookAir8,2",
             "MarketingName": "MacBook Air (Retina, 13-inch, 2019)"
         },
+        "J140KAP": {
+            "DeviceID": "MacBookAir8,1",
+            "MarketingName": "MacBook Air (Retina, 13-inch, 2018)"
+        },
         "J152FAP": {
-            "DeviceID": "MacPro7,1",
-            "MarketingName": "Mac Pro (2019)"
+            "DeviceID": "MacBookPro16,1",
+            "MarketingName": "MacBook Pro (16-inch, 2019)"
         },
         "J160AP": {
             "DeviceID": "MacPro7,1-Rack",
@@ -16003,12 +16090,12 @@
             "MarketingName": "Mac Pro (Rack, 2023)"
         },
         "J185AP": {
-            "DeviceID": "MacBookPro15,1",
-            "MarketingName": "MacBook Pro (15-inch, 2018)"
+            "DeviceID": "iMac20,1",
+            "MarketingName": "iMac (Retina 5K, 27-inch, 2020)"
         },
         "J185FAP": {
-            "DeviceID": "MacBookPro15,3",
-            "MarketingName": "MacBook Pro (15-inch, 2019)"
+            "DeviceID": "iMac20,2",
+            "MarketingName": "iMac (Retina 5K, 27-inch, 2020)"
         },
         "J213AP": {
             "DeviceID": "MacBookPro15,4",
@@ -16019,16 +16106,16 @@
             "MarketingName": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)"
         },
         "J215AP": {
+            "DeviceID": "MacBookPro16,4",
+            "MarketingName": "MacBook Pro (16-inch, 2019)"
+        },
+        "J223AP": {
             "DeviceID": "MacBookPro16,3",
             "MarketingName": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)"
         },
-        "J223AP": {
+        "J230KAP": {
             "DeviceID": "MacBookAir9,1",
             "MarketingName": "MacBook Air (Retina, 13-inch, 2020)"
-        },
-        "J230KAP": {
-            "DeviceID": "MacBookPro16,4",
-            "MarketingName": "MacBook Pro (16-inch, 2019)"
         },
         "J274AP": {
             "DeviceID": "Macmini9,1",
@@ -16199,8 +16286,8 @@
             "MarketingName": "iMac (24-inch, M4, 2024, Four Ports)"
         },
         "J680AP": {
-            "DeviceID": "MacBookPro16,4",
-            "MarketingName": "MacBook Pro (16-inch, 2019)"
+            "DeviceID": "MacBookPro15,1",
+            "MarketingName": "MacBook Pro (15-inch, 2018)"
         },
         "J700AP": {
             "DeviceID": "Mac17,5",
@@ -16243,17 +16330,20 @@
             "MarketingName": "Mac mini (M4 Pro, 2024)"
         },
         "J775cAP": {
-            "MarketingName": "J775cAP"
+            "DeviceID": "Mac17,14",
+            "MarketingName": "Mac Studio (M5 Max)"
         },
         "J775dAP": {
-            "MarketingName": "J775dAP"
+            "DeviceID": "Mac17,15",
+            "MarketingName": "Mac Studio (M5 Ultra)"
         },
         "J780AP": {
-            "DeviceID": "iMac20,1",
-            "MarketingName": "iMac (Retina 5K, 27-inch, 2020)"
+            "DeviceID": "MacBookPro15,3",
+            "MarketingName": "MacBook Pro (15-inch, 2019)"
         },
         "J804AP": {
-            "MarketingName": "J804AP"
+            "DeviceID": "Mac18,1",
+            "MarketingName": "MacBook Pro (14-inch, M6)"
         },
         "J813AP": {
             "DeviceID": "Mac17,3",
@@ -16264,133 +16354,140 @@
             "MarketingName": "MacBook Air (15-inch, M5)"
         },
         "J833ctAP": {
-            "MarketingName": "J833ctAP"
+            "DeviceID": "Mac18,2",
+            "MarketingName": "iMac (24-inch, M6, 2026)"
         },
         "J873gAP": {
-            "MarketingName": "J873gAP"
+            "DeviceID": "Mac18,5",
+            "MarketingName": "Mac mini (M6)"
         },
         "J873sAP": {
-            "MarketingName": "J873sAP"
+            "DeviceID": "Mac17,16",
+            "MarketingName": "Mac mini (M5 Pro)"
         },
         "K114cAP": {
-            "MarketingName": "K114cAP"
+            "DeviceID": "Mac17,11",
+            "MarketingName": "MacBook Pro (14-inch PROLED XDR, M5 Pro or M5 Max)"
         },
         "K114sAP": {
-            "MarketingName": "K114sAP"
+            "DeviceID": "Mac17,13",
+            "MarketingName": "MacBook Pro (14-inch PROLED XDR, M5 Pro or M5 Max)"
         },
         "K116cAP": {
-            "MarketingName": "K116cAP"
+            "DeviceID": "Mac17,10",
+            "MarketingName": "MacBook Pro (16-inch PROLED XDR, M5 Pro or M5 Max)"
         },
         "K116sAP": {
-            "MarketingName": "K116sAP"
+            "DeviceID": "Mac17,12",
+            "MarketingName": "MacBook Pro (16-inch PROLED XDR, M5 Pro or M5 Max)"
         },
         "Mac-06F11F11946D27C5": {
-            "DeviceID": "MacBookAir7,1",
-            "MarketingName": "MacBook Air (11-inch, Early 2015)"
+            "DeviceID": "MacBookPro11,5",
+            "MarketingName": "MacBook Pro (Retina, 15-inch, Mid 2015)"
         },
         "Mac-06F11FD93F0323C5": {
-            "DeviceID": "MacBookAir7,2",
-            "MarketingName": "MacBook Air (13-inch, Early 2015)"
+            "DeviceID": "MacBookPro11,4",
+            "MarketingName": "MacBook Pro (Retina, 15-inch, Mid 2015)"
         },
         "Mac-1E7E29AD0135F9BC": {
-            "DeviceID": "MacBookAir9,1",
-            "MarketingName": "MacBook Air (Retina, 13-inch, 2020)"
+            "DeviceID": "MacBookPro15,3",
+            "MarketingName": "MacBook Pro (15-inch, 2019)"
         },
         "Mac-35C5E08120C7EEAF": {
-            "DeviceID": "MacBookPro15,1",
-            "MarketingName": "MacBook Pro (15-inch, 2018)"
+            "DeviceID": "Macmini7,1",
+            "MarketingName": "Mac mini (Late 2014)"
         },
         "Mac-473D31EABEB93F9B": {
-            "DeviceID": "iMac18,1",
-            "MarketingName": "iMac (21.5-inch, 2017)"
+            "DeviceID": "MacBookPro13,1",
+            "MarketingName": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)"
         },
         "Mac-4B682C642B45593E": {
-            "DeviceID": "iMac18,3",
-            "MarketingName": "iMac (Retina 5K, 27-inch, 2017)"
+            "DeviceID": "iMac18,1",
+            "MarketingName": "iMac (21.5-inch, 2017)"
         },
         "Mac-551B86E5744E2388": {
             "DeviceID": "MacBookPro14,3",
             "MarketingName": "MacBook Pro (15-inch, 2017)"
         },
         "Mac-63001698E7A34814": {
-            "DeviceID": "iMac19,1",
-            "MarketingName": "iMac (Retina 5K, 27-inch, 2019)"
+            "DeviceID": "iMac19,2",
+            "MarketingName": "iMac (Retina 4K, 21.5-inch, 2019)"
         },
         "Mac-65CE76090165799A": {
             "DeviceID": "iMac17,1",
             "MarketingName": "iMac (Retina 5K, 27-inch, Late 2015)"
         },
         "Mac-66E35819EE2D0D05": {
-            "DeviceID": "iMac19,2",
-            "MarketingName": "iMac (Retina 4K, 21.5-inch, 2019)"
+            "DeviceID": "MacBookPro13,2",
+            "MarketingName": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)"
         },
         "Mac-77F17D7DA9285301": {
             "DeviceID": "iMac18,2",
             "MarketingName": "iMac (Retina 4K, 21.5-inch, 2017)"
         },
         "Mac-937A206F2EE63C01": {
-            "DeviceID": "MacBookPro14,2",
-            "MarketingName": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)"
+            "DeviceID": "MacBookPro15,1",
+            "MarketingName": "MacBook Pro (15-inch, 2018)"
         },
         "Mac-937CB26E2E02BB01": {
-            "DeviceID": "MacBookPro13,2",
-            "MarketingName": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)"
+            "DeviceID": "MacBookAir7,2",
+            "MarketingName": "MacBook Air (13-inch, Early 2015)"
         },
         "Mac-9AE82516C7C6B903": {
-            "DeviceID": "MacBookPro14,1",
-            "MarketingName": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)"
+            "DeviceID": "MacBook9,1",
+            "MarketingName": "MacBook (Retina, 12-inch, Early 2016)"
         },
         "Mac-9F18E312C5C2BF0B": {
-            "DeviceID": "iMac20,2",
-            "MarketingName": "iMac (Retina 5K, 27-inch, 2020)"
+            "DeviceID": "MacBookAir7,1",
+            "MarketingName": "MacBook Air (11-inch, Early 2015)"
         },
         "Mac-A369DDC4E67F1C45": {
-            "DeviceID": "MacBookPro13,3",
-            "MarketingName": "MacBook Pro (15-inch, 2016)"
-        },
-        "Mac-A5C67F76ED83108C": {
-            "DeviceID": "MacPro6,1",
-            "MarketingName": "Mac Pro (Late 2013)"
-        },
-        "Mac-AA95B1DDAB278B95": {
-            "DeviceID": "iMac16,2",
-            "MarketingName": "iMac (Retina 4K, 21.5-inch, Late 2015)"
-        },
-        "Mac-B4831CEBD52A0C4C": {
-            "DeviceID": "MacBookPro15,2",
-            "MarketingName": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)"
-        },
-        "Mac-B809C3757DA9BB8D": {
-            "DeviceID": "iMac15,1",
-            "MarketingName": "iMac (Retina 5K, 27-inch, Mid 2015)"
-        },
-        "Mac-BE088AF8C5EB4FA2": {
             "DeviceID": "iMac16,1",
             "MarketingName": "iMac (21.5-inch, Late 2015)"
         },
+        "Mac-A5C67F76ED83108C": {
+            "DeviceID": "MacBookPro13,3",
+            "MarketingName": "MacBook Pro (15-inch, 2016)"
+        },
+        "Mac-AA95B1DDAB278B95": {
+            "DeviceID": "iMac19,1",
+            "MarketingName": "iMac (Retina 5K, 27-inch, 2019)"
+        },
+        "Mac-B4831CEBD52A0C4C": {
+            "DeviceID": "MacBookPro14,1",
+            "MarketingName": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)"
+        },
+        "Mac-B809C3757DA9BB8D": {
+            "DeviceID": "iMac17,1",
+            "MarketingName": "iMac (Retina 5K, 27-inch, Late 2015)"
+        },
+        "Mac-BE088AF8C5EB4FA2": {
+            "DeviceID": "iMac18,3",
+            "MarketingName": "iMac (Retina 5K, 27-inch, 2017)"
+        },
         "Mac-CAD6701F7CEA0921": {
-            "DeviceID": "MacBookPro13,1",
-            "MarketingName": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)"
+            "DeviceID": "MacBookPro14,2",
+            "MarketingName": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)"
         },
         "Mac-DB15BD556843C820": {
-            "DeviceID": "Macmini7,1",
-            "MarketingName": "Mac mini (Late 2014)"
+            "DeviceID": "iMac17,1",
+            "MarketingName": "iMac (Retina 5K, 27-inch, Late 2015)"
         },
         "Mac-E43C1C25D4880AD6": {
-            "DeviceID": "MacBookPro11,4",
-            "MarketingName": "MacBook Pro (Retina, 15-inch, Mid 2015)"
-        },
-        "Mac-EE2EBD4B90B839A8": {
-            "DeviceID": "MacBookPro11,5",
-            "MarketingName": "MacBook Pro (Retina, 15-inch, Mid 2015)"
-        },
-        "Mac-F60DEB81FF30ACF6": {
             "DeviceID": "MacBookPro12,1",
             "MarketingName": "MacBook Pro (Retina, 13-inch, Early 2015)"
         },
-        "Mac-FFE5EF870D7BA81A": {
+        "Mac-EE2EBD4B90B839A8": {
             "DeviceID": "MacBook10,1",
             "MarketingName": "MacBook (Retina, 12-inch, 2017)"
+        },
+        "Mac-F60DEB81FF30ACF6": {
+            "DeviceID": "MacPro6,1",
+            "MarketingName": "Mac Pro (Late 2013)"
+        },
+        "Mac-FFE5EF870D7BA81A": {
+            "DeviceID": "iMac16,2",
+            "MarketingName": "iMac (Retina 4K, 21.5-inch, Late 2015)"
         },
         "VMA2MACOSAP": {
             "DeviceID": "VirtualMac2,1",
@@ -16405,9 +16502,9 @@
         "ReleaseDate": "2026-11-11T20:54:45Z"
     },
     "XProtectPayloads": {
-        "ReleaseDate": "2026-11-11T20:54:45Z",
         "com.apple.XprotectFramework.PluginService": "74",
-        "com.apple.XProtectFramework.XProtect": "170"
+        "com.apple.XProtectFramework.XProtect": "170",
+        "ReleaseDate": "2026-11-11T20:54:45Z"
     },
     "BackgroundSecurityImprovements": {
         "26": [
@@ -16423,6 +16520,9 @@
                     "J700AP"
                 ],
                 "SecurityInfo": "https://support.apple.com/en-us/126604",
+                "CVEs": [
+                    "CVE-2026-20643"
+                ],
                 "DeviceScope": "device-specific",
                 "SupersededBy": {
                     "ProductVersion": "26.4",
@@ -16504,6 +16604,9 @@
                     "VMM-x86_64"
                 ],
                 "SecurityInfo": "https://support.apple.com/en-us/126604",
+                "CVEs": [
+                    "CVE-2026-20643"
+                ],
                 "DeviceScope": "universal",
                 "SupersededBy": {
                     "ProductVersion": "26.4",
